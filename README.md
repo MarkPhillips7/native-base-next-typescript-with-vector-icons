@@ -1,6 +1,7 @@
 # native-base-next-typescript-with-vector-icons
 
-This repo demonstrates that an error occurs trying to use react-native-vector-icons in a Next.js app created from the https://github.com/GeekyAnts/nativebase-templates/tree/master/nextjs-with-native-base-typescript template.
+This repo demonstrates that an error occurs trying to use react-native-vector-icons in a Next.js app created from [this NativeBase template](https://github.com/GeekyAnts/nativebase-templates/tree/master/nextjs-with-native-base-typescript).
+
 ## How this repo got here
 
 ```bash
