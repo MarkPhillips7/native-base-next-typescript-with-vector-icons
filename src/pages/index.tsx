@@ -3,6 +3,7 @@ import {
   Center,
   useColorMode,
   Tooltip,
+  Icon,
   IconButton,
   SunIcon,
   MoonIcon,
@@ -16,6 +17,7 @@ import {
   Button,
   AspectRatio,
 } from "native-base";
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 // Start editing here, save and see your changes.
 export default function App() {
@@ -43,6 +45,7 @@ export default function App() {
           />
         </HStack>
         <Heading>Welcome to NativeBase</Heading>
+        <IconButton icon={<Icon as={<MaterialIcons name='favorite' />} size='sm' color="blue" />} />
         <Text>
           Edit <Code>src/pages/index.js</Code> and save to reload.
         </Text>
